@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="add_city">Добавить город</string>
+    <string name="del_city">Обновить данные</string>
+    <string name="exit">Выход</string>
+    <string name="open_weather_maps_app_id">51b475f85bb27c4960546aa961254541</string>
+
+    <string name="weather_sunny">Солнечно</string>
+    <string name="weather_clear_night">Ночь</string>
+    <string name="weather_foggy">Туманно</string>
+    <string name="weather_cloudy">Облачно</string>
+    <string name="weather_rainy">Дождливо</string>
+    <string name="weather_snowy">Снежно</string>
+    <string name="weather_thunder">Гром</string>
+    <string name="weather_drizzle">Изморозь</string>
+
+    <string name="sunny">&#xf00d;</string>
+    <string name="clear_night">&#xf02e;</string>
+
+    <string name="foggy">&#xf014;</string>
+    <string name="cloudy">&#xf013;</string>
+    <string name="rainy">&#xf019;</string>
+    <string name="snowy">&#xf01b;</string>
+    <string name="thunder">&#xf01e;</string>
+    <string name="drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Погода для данного города не найдена.</string>
+</resources>

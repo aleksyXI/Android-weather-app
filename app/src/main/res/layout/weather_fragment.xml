@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginEnd="20dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="10dp"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textTemp"
+        android:layout_alignRight="@id/textTemp"
+        android:text="°"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textTempDescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textTemp"
+        android:layout_toRightOf="@id/textTemp"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textTemp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:id="@+id/exitBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/del" />
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textTemp"
+        android:layout_below="@id/cityName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:textAlignment="center"
+        android:textSize="100sp" />
+
+    <ImageButton
+        android:id="@+id/updBnt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/exitBtn"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/upd" />
+
+</RelativeLayout>
